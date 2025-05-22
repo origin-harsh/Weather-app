@@ -17,7 +17,13 @@ function App() {
       setVlaue(value-1);
     }
    }>Minus</button>
+   <button onClick={
+    () =>{
+      setVlaue(0);
+    }
+   }>Reset</button>
    </>
+
   )
 }
 
