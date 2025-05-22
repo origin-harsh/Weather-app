@@ -12,6 +12,11 @@ function App() {
       setVlaue(value+1);
     }
    }>Add</button>
+   <button onClick={
+    () =>{
+      setVlaue(value-1);
+    }
+   }>Minus</button>
    </>
   )
 }
