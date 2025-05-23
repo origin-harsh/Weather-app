@@ -9,19 +9,10 @@ function App() {
    <h1>Count {value}</h1>
    <button onClick={
     () =>{
-      setVlaue(value+1);
+      setVlaue(value+3);
     }
-   }>Add</button>
-   <button onClick={
-    () =>{
-      setVlaue(value-1);
-    }
-   }>Minus</button>
-   <button onClick={
-    () =>{
-      setVlaue(0);
-    }
-   }>Reset</button>
+   }>Add 3</button>
+   
    </>
 
   )
