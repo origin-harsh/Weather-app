@@ -12,6 +12,11 @@ function App() {
       setVlaue(value+3);
     }
    }>Add 3</button>
+   <button onClick={
+    () =>{
+      setVlaue(value+2);
+    }
+   }>Add 2</button>
    
    </>
 
